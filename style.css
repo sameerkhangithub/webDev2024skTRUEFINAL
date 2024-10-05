@@ -1,0 +1,121 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#wrapper {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    border: 8px solid rgb(73, 2, 240);
+    background: linear-gradient(to bottom, #b2d7ee, #08a6ea);
+
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+
+
+}
+#projects {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(8, 166, 234, 0.8); 
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 12000;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 12000px;
+    margin: auto;
+    width: 100%; 
+}
+
+footer {
+    
+    background: linear-gradient(45deg, #2d0adf, #08a6ea);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#contact{
+    margin-bottom: 100px
+}
+.contact form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.contact label {
+    margin: 10px 0 5px; 
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.contact input[type="submit"] {
+    cursor: pointer;
+    background-color: #0572a1;
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+}

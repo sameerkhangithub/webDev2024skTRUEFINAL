@@ -1,0 +1,13 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    #home, #about, #projects {
+        padding: 20px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+}
